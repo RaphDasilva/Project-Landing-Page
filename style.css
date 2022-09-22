@@ -77,3 +77,39 @@ button{
     max-width: 100%;
 }
 
+.second-section{
+    display: flex;
+    background-color: #f9faf8;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+    
+    
+}
+
+.product-container{
+    display: flex;
+    gap: 20px;
+}
+
+.items{
+    width: 200px;
+    height: auto;
+}
+
+.items p{
+    text-align: center;
+    padding: 10px;
+    color: #555;
+}
+
+.items img {
+    border: solid 3px #3882f6;
+    border-radius: 9px;
+}
+.second-section h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
