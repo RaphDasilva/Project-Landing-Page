@@ -201,3 +201,16 @@ a{
     text-align: left;
     margin: 5px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+footer h3{
+    color: #f9faf8;
+    font-size: 15px;
+    margin: 20px;
+}
