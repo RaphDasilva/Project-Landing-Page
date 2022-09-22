@@ -71,12 +71,13 @@ a{
     padding: 10px;
 }
 
-button{
+.first-button{
     padding: 6px 20px ;
     border-radius: 9px;
     margin-left: 10px;
     background-color: #3882f6;
     color: #f9faf8;
+    border: #f9faf8 solid 1px;
 }
 
 .img-1 img {
@@ -147,3 +148,56 @@ button{
     font-weight: bolder;
 }
 
+.fouth-section{
+    display: flex;
+    justify-content: center;
+    background-color:#f9faf8 ;
+}
+
+.iner-info{
+    background-color: #3882f6;
+    display: flex;
+    margin: 150px;
+    padding: 20px;
+    border-radius: 9px;
+    line-height: 40px;
+
+}
+
+.last-button{
+    padding: 6px 20px ;
+    border-radius: 9px;
+    margin-left: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: #f9faf8 solid 1px;
+}
+
+.info-butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.info-text h3 {
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 5px;
+    
+}
+
+.info-text p{
+    color: #f9faf8;
+    text-align: left;
+    margin: 5px;
+}
